@@ -28,10 +28,10 @@ const Login = () => {
           </label>
         </div>
         <div className="form-control mt-6 flex">
-           <Link>     <button className="btn         btn-primary">LOGIN</button></Link>
+            <button className="btn         btn-primary">LOGIN</button>
             <div className="flex mt-4">
               <p>New here ?</p>
-            <Link to={'/Register'}><button>create a account</button></Link>
+            <Link to={'/Register'}><button  className="btn btn-ghost">create a account</button></Link>
             </div>
             <h1 className="text-center">_______continue with________</h1>
         </div>
