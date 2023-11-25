@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
 
 
-const Login = () => {
+const Register = () => {
     return (
         <div>
-           <div className="hero min-h-screen bg-base-200">
+        <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold">Login now!</h1>
@@ -27,13 +26,8 @@ const Login = () => {
             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
           </label>
         </div>
-        <div className="form-control mt-6 flex">
-           <Link>     <button className="btn         btn-primary">LOGIN</button></Link>
-            <div className="flex mt-4">
-              <p>New here ?</p>
-            <Link to={'/Register'}><button>create a account</button></Link>
-            </div>
-            <h1 className="text-center">_______continue with________</h1>
+        <div className="form-control mt-6">
+          <button className="btn btn-primary">Login</button>
         </div>
       </form>
     </div>
@@ -43,4 +37,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Register;
