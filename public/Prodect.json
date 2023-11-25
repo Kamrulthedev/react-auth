@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "name": "SolarFlare",
+      "price": 19.99,
+      "title":"Shade Haven",
+      "img": "https://i.ibb.co/Qb1XJyN/images-1.jpghttps://i.ibb.co/m8ym61S/hlt-womens-sunglasses-test-maui-jim-capri-polarized-anna-popp-01-fd503711479146a4b94142ab8923520d.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod augue et turpis tincidunt."
+    },
+    {
+      "id": 2,
+      "name": "Shades",
+      "price": 29.99,
+      "title":"SunSpecs Central",
+      "img": "https://i.ibb.co/Khz39KR/Mo-Matt-Black-Front-Blue.jpg",
+      "description": "Sed auctor justo ut orci cursus, non cursus tortor interdum. Integer tristique libero vel odio bibendum."
+    },
+    {
+      "id": 3,
+      "name": "SkyGlow ",
+      "price": 39.99,
+      "title":"SunSpecs Central",
+      "img": "https://i.ibb.co/Hqz7wm7/silver-black-green-full-rim-round-vincent-chase-the-metal-edit-vc-s13137-c5-sunglasses-vincent-chase.jpg",
+      "description": "Fusce a arcu eu quam sagittis bibendum non vel tortor. Proin dapibus ligula eget nunc congue."
+    },
+    {
+      "id": 4,
+      "name": "Sunglasses",
+      "price": 49.99,
+      "title":"Glamour Glints",
+      "img": "https://i.ibb.co/DLc0tNk/voyage-round-black-silver-sunglasses-mg3051-500x500.webp",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sit amet ex vel ligula consectetur fringilla."
+    },
+    {
+      "id": 5,
+      "name": "UrbanRay",
+      "price": 59.99,
+      "title":"Sunny Styles",
+      "img": "https://i.ibb.co/2kBLJNs/6782.jpg",
+      "description": "Curabitur vel augue auctor, rhoncus enim id, mattis purus. Nulla facilisi. Vivamus eget justo vel lacus facilisis ullamcorper."
+    },
+    {
+      "id": 6,
+      "name": "Eyewear",
+      "price": 69.99,
+      "title":"RayBan Revival",
+      "img": "https://i.ibb.co/DLc0tNk/voyage-round-black-silver-sunglasses-mg3051-500x500.webp",
+      "description": "Integer non orci eu mauris fringilla malesuada. Suspendisse potenti. Fusce vehicula felis nec erat aliquam, vel tincidunt lacus congue."
+    },
+    {
+      "id": 7,
+      "name": "Luminar",
+      "price": 79.99,
+      "title":"Eclipse Elegance",
+      "img": "https://i.ibb.co/kBJFvdW/Blossom-Hand-painted-sunglasses-with-cover.jpg",
+      "description": "Vestibulum at leo vitae nulla dapibus dapibus. Duis fermentum justo eget massa aliquet, vel aliquam orci luctus."
+    },
+    {
+      "id": 8,
+      "name": "Sunies",
+      "price": 89.99,
+      "title":"Radiant Shades Co.",
+      "img": "https://i.ibb.co/Khz39KR/Mo-Matt-Black-Front-Blue.jpg",
+      "description": "Nam nec arcu a velit facilisis auctor. Sed vel justo eu orci vulputate dictum in in felis."
+    },
+    {
+      "id": 9,
+      "name": "Mirage",
+      "price": 99.99,
+      "title":"Solar Chic",
+      "img": "https://i.ibb.co/Khz39KR/Mo-Matt-Black-Front-Blue.jpg",
+      "description": "Duis vel nisl ut nulla ultricies consectetur. Phasellus euismod tellus in tortor dapibus, ac commodo lacus finibus."
+    },
+    {
+      "id": 10,
+      "name": "Product J",
+      "price": 109.99,
+      "title":"Stylish Sunnies Hub",
+      "img": "https://i.ibb.co/Khz39KR/Mo-Matt-Black-Front-Blue.jpg",
+      "description": "In hac habitasse platea dictumst. Praesent ut orci in quam convallis bibendum. Etiam fermentum risus in metus hendrerit, eu ullamcorper tortor fermentum."
+    },
+    {
+      "id": 11,
+      "name": "Vision",
+      "price": 119.99,
+      "title":"Optic Aura",
+      "img": "https://i.ibb.co/Khz39KR/Mo-Matt-Black-Front-Blue.jpg",
+      "description": "Vivamus eget tortor id felis tristique bibendum. Ut sit amet felis vel odio cursus ultricies vel a ante."
+    },
+    {
+      "id": 12,
+      "name": "Eclipse",
+      "price": 129.99,
+      "title":"Luxe Lens Lounge",
+      "img": "https://i.ibb.co/vsY3M1F/Dusk-Blackframewithdarktint-polarizedlenses-969c55e5-54b3-44bc-ad49-3c0eac2e49f5-1100x.webp",
+      "description": "Nunc dignissim, quam vel malesuada tincidunt, elit tortor volutpat odio, vel fermentum purus ligula id justo."
+    },
+    {
+      "id": 13,
+      "name": "Celestial",
+      "price": 139.99,
+      "title":"Glow Goggles Gallery",
+      "img": "https://i.ibb.co/hsXrZ9n/download.jpg",
+      "description": "Aenean convallis massa at tortor maximus, a tincidunt odio aliquet. Nulla facilisi. Fusce nec eros at arcu ultrices cursus."
+    },
+    {
+      "id": 14,
+      "name": "Eyewear",
+      "price": 149.99,
+      "title":"Sunbeam Spectacles",
+      "img": "https://i.ibb.co/xszG65C/51ww-Vl2r-WL-AC-UY1100.jpg",
+      "description": "Donec accumsan risus at sapien tempus, a convallis justo tincidunt. Suspendisse eget dui ac nisi posuere dictum ut at nulla."
+    },
+    {
+      "id": 15,
+      "name": "Spectrum",
+      "price": 159.99,
+      "title":"ChicView Shades",
+      "img": "https://i.ibb.co/vcmzZ4W/images.jpg",
+      "description": "Aliquam vel metus non augue varius ultricies. Sed nec metus eu metus tincidunt cursus vel eget ligula."
+    }
+    ,
+    {
+      "id": 16,
+      "name": " Zenith",
+      "price": 155.99,
+      "title":"Luminous Looks Eyewear",
+      "img": "https://i.ibb.co/6Hg9QTm/images-3.jpg",
+      "description": "Aliquam vel metus non augue varius ultricies. Sed nec metus eu metus tincidunt cursus vel eget ligula."
+    }
+  ]
+  
