@@ -1,10 +1,30 @@
+import React from "react";
 
 
 const Card = ({Cards}) => {
-    const { id, name, price, img, description, title } = Cards;
+    const { id, name, price, img, description, title } = Cards || {}
+   
 
     const handlerAddtoAout = ()=>{
-     
+       const AddAboutItem = [];
+   
+      const AboutItem = JSON.parse(localStorage.getItem(('About')))
+      if(!AboutItem){
+        AddAboutItem.push(Cards)
+        localStorage.setItem('About', JSON.stringify(AddAboutItem))
+        sweetalert("Good Job!", "This is Add About is success");
+      }
+      else{
+        const isExits = AboutItem.find(Cards =>Cards.id == id)
+        if(isExits){
+            AddAboutItem.push(...AboutItem, Cards)
+            localStorage.setItem('About', JSON.stringify(AddAboutItem))
+            sweetalert("Good Job!", "Thsi is About", "Success");
+        }
+        else{
+            sweetalert("Error", "Aledy booked Item", "success");
+        }
+      }
     }
 
     return (
@@ -22,15 +42,19 @@ const Card = ({Cards}) => {
                         {title}
                     </h4>
                     <div className="flex justify-between ">
-                        <h2>Price: {price}</h2>
+                        <h2 className="text-xl font-bold">Price: {price}</h2>
                       
+                    </div>
+                    <div>
+                        
+                        <span>{description}</span>
                     </div>
 
                     <div className="mt-24">
                  
                             <button onClick={handlerAddtoAout}
                                 className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-pink-500 uppercase align-middle transition-all rounded-lg select-none hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                                type="button">ADD TO FAVORITE<svg
+                                type="button">ADD TO ABOUT<svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
                                     viewBox="0 0 24 24"
