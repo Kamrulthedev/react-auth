@@ -33,7 +33,7 @@ const Login = () => {
               <p>New here ?</p>
             <Link to={'/Register'}><button  className="btn btn-ghost">create a account</button></Link>
             </div>
-            <h1 className="text-center">_______continue with________</h1>
+            <h1 className="text-center">_______continue with_______</h1>
         </div>
       </form>
     </div>
