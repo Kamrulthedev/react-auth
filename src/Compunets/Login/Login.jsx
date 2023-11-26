@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Socail from "../Socail/Socail";
 
 
 const Login = () => {
@@ -33,7 +34,7 @@ const Login = () => {
               <p>New here ?</p>
             <Link to={'/Register'}><button  className="btn btn-ghost">create a account</button></Link>
             </div>
-            <h1 className="text-center">_______continue with_______</h1>
+          <Socail></Socail>
         </div>
       </form>
     </div>

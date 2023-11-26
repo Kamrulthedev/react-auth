@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Socail from "../Socail/Socail";
 
 
 const Register = () => {
@@ -45,7 +46,11 @@ const Register = () => {
         <div className="flex justify-between">
             <h1>Aleday a accound.?</h1>
             <Link to={'/Login'}><button className="btn btn-ghost">please Login</button></Link>
+           
         </div>
+        <div>
+              <Socail></Socail>
+            </div>
       </form>
     </div>
   </div>
