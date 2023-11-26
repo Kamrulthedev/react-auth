@@ -21,7 +21,7 @@ const Prodect = ({ Prodec }) => {
                 </div>
 
                 <div className="p-6 ">
-                    <Link to={`//${id}`}>
+                    <Link to={`/HomeCard/${id}`}>
                         <button className="  rounded-lg bg-zinc-300 py-3 px-6 text-center  font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 "
                             type="button">SEE DETAILES</button>
                     </Link>

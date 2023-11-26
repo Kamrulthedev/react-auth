@@ -7,6 +7,7 @@ import Bolg from "../Blog/Bolg";
 import Login from "../Login/Login";
 import ErrorPages from "../ErrorPages/ErrorPages";
 import Register from "../Register/Register";
+import HomeCard from "../HomesCard/HomeCard";
 
 const MyRouter = createBrowserRouter([
     {
@@ -38,6 +39,11 @@ const MyRouter = createBrowserRouter([
             {
                 path:'/Register',
                 element:<Register></Register>
+            },
+            {
+                path:'/HomeCard/:id',
+                element:<HomeCard></HomeCard>,
+                loader: ()=>fetch(`Prodect.json`)
             }
         ]
     }
