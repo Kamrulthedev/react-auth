@@ -2,10 +2,18 @@ import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 
 
+
 const Socail = () => {
 
-    const {authentication, user} = useContext(AuthContext)
-    console.log(user)
+    const {googleLogin} = useContext(AuthContext)
+            
+    const handlerLogin = (media) =>{
+         media()
+         .thenm(Result => 
+            console.log(Result.user))
+         .catch(error=>
+            console.log(error))
+    }
 
 
     return (
@@ -14,10 +22,10 @@ const Socail = () => {
               continue with
             </div>
             <div>
-                <button className="btn btn-primary btn-circle btn-outline">Accent</button>
+                <button onClick={()=> handlerLogin(googleLogin)} className="btn btn-primary btn-circle btn-outline">Google</button>
             </div>
         </div>
     );
 };
 
-export default Socail;
+export default Socail; 

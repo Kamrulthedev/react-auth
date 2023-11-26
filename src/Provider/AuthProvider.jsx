@@ -1,5 +1,6 @@
+import PropTypes from 'prop-types';
 import { createContext } from "react";
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword  } from "firebase/auth";
 import auth from "../Compunets/Firbase/Firbase";
 
 export const AuthContext  =createContext(null)
@@ -11,20 +12,27 @@ const AuthProvider = ({children}) => {
     const googleLogin = () =>{
        return signInWithPopup(auth, GoogleProvider)
     }
-
-    const user = "kamrul hassan"
+    const CreateUser = (email, password) =>{
+        return createUserWithEmailAndPassword(auth, email, password)
+    }
+   
 
     const authentication ={
-        googleLogin,
-        user
+        googleLogin, 
+        CreateUser
+        
   }
     return (
-        <AuthContext.Provider value={user, authentication}>
+        <AuthContext.Provider value={ authentication}>
            {children}
         </AuthContext.Provider>
     
     );
 };
+
+AuthProvider.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
 
 export default AuthProvider;
 

@@ -1,8 +1,17 @@
 import { Link } from "react-router-dom";
 import Socail from "../Socail/Socail";
+import { useContext } from "react";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 
 const Register = () => {
+
+  const {CreateUser} = useContext(AuthContext);
+
+  const  handlerRegister
+
+
+
     return (
         <div>
         <div className="hero min-h-screen bg-base-200">
